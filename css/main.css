@@ -1,0 +1,126 @@
+html {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+header {
+  background-color: #ddd;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+.playgrounds {
+  background-color: #efefef;
+}
+
+.list-group {
+  background-color: #fff;
+}
+
+.box {
+  background-color: #fff;
+}
+
+table {
+  min-width: 50em;
+}
+
+th,
+td {
+  border-bottom: 1px solid #333;
+}
+
+#input-container {
+  position: relative;
+}
+
+#input-container > img {
+  position: absolute;
+  top: 6px;
+  left: 4px;
+}
+
+#input-container > input {
+  padding-left: 40px;
+}
+
+@media only screen and (min-width: 20em) {
+
+  .margins {
+    padding-top: .05em;
+  }
+
+}
+
+@media only screen and (min-width: 25em) {
+
+  .img-flex {
+    width: 105%;
+  }
+
+  .margin {
+    margin-bottom: .5em;
+  }
+
+  caption {
+    margin-top: .35em;
+  }
+
+  .margins {
+    padding-top: .15em;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .play {
+    padding-right: 1em;
+  }
+
+  .list-group {
+    padding-top: 1em;
+    padding-left: 1em;
+  }
+
+  .search {
+    padding-top: 1.5em;
+  }
+
+  #input-container {
+    position: relative;
+  }
+
+  #input-container > img {
+    position: absolute;
+    top: 30px;
+    left: 6px;
+  }
+
+  #input-container > input {
+    padding-left: 40px;
+  }
+
+  .img-flex {
+    width: 90%;
+  }
+
+  .margin,
+  .margins {
+    margin: 0;
+  }
+
+  caption {
+    margin-top: 0;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .tablething {
+    overflow: hidden;
+  }
+
+}
